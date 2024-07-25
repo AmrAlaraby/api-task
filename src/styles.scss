@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+    margin: 0;
+    padding: p;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins;
+
+
+}
+
+
+
+.my-gap-1{
+    gap: 0.5rem;
+}
+.my-gap-2{
+    gap: 1rem;
+}

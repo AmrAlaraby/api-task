@@ -1,0 +1,172 @@
+.search-bar .input-group {
+    background: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.input-group{
+    position: relative;
+    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px
+}
+
+.input-group input{
+width: 100%;
+border-radius: 20px;
+border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px
+}
+
+.input-group button{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    z-index: 9999999999999999999999999;
+    }
+
+    .my-p-1{
+        padding: 20px;
+    }
+
+.my-title {
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+background: #1572D31A;
+color: #1572D3;
+ width: fit-content;
+ border-radius: 5px;
+}
+
+
+
+.popular-deals h2 {
+    font-family: Poppins;
+font-size: 38px;
+font-weight: 500;
+line-height: 49.4px;
+text-align: left;
+
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 17px;
+text-align: left;
+color: #262626;
+
+}
+
+.card-text {
+    font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 17px;
+text-align: left;
+color: #888;
+}
+.card-text-big{
+    font-family: Poppins;
+font-size: 12px;
+font-weight: 500;
+line-height: 17px;
+text-align: left;
+color: #262626;
+
+}
+
+.list-my-text{
+    font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 17px;
+text-align: left;
+color: #959595;
+
+}
+.price-text{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+text-align: left;
+color: #595959;
+
+
+}
+
+.price {
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+text-align: left;
+color: #959595;
+
+}
+
+.price-num{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 17px;
+text-align: left;
+color: #262626;
+
+}
+
+.show-all .btn {
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-size: 1rem;
+}
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+
+
+.mainLoginInput::-webkit-input-placeholder { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+
+}
+
+.mainLoginInput::-moz-placeholder  { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: hsl(9, 40%, 60%);
+}
+
+.mainLoginInput:-ms-input-placeholder  { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: hsl(9, 40%, 60%);
+}
