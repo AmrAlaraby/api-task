@@ -14,6 +14,8 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { DownloadComponent } from './download/download.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { AllCarsModule } from './all-cars/all-cars.module';
+import { CarDetailsComponent } from './car-details/car-details.component';
 
 @NgModule({
   declarations: [
@@ -26,9 +28,11 @@ import { HomeComponent } from './home/home.component';
     TestimonialsComponent,
     DownloadComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    CarDetailsComponent,
+    
   ],
-  imports: [
+  imports: [AllCarsModule,
     BrowserModule,
     AppRoutingModule,HttpClientModule
 

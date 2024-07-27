@@ -1,18 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import { ApiService } from '../api.service';
 import { Router } from '@angular/router';
+import { ApiService } from 'src/app/api.service';
 
 @Component({
-  selector: 'app-rental-deals',
-  templateUrl: './rental-deals.component.html',
-  styleUrls: ['./rental-deals.component.scss']
+  selector: 'app-all-car-display',
+  templateUrl: './all-car-display.component.html',
+  styleUrls: ['./all-car-display.component.scss']
 })
-export class RentalDealsComponent  implements OnInit{
+export class AllCarDisplayComponent implements OnInit{
   constructor(private apiService:ApiService,private router:Router){}
 
   cars:Array<any>=[];
   fourCars:Array<any>=[];
-  
+
   ngOnInit(): void {
     this.apiService.getAllCars().subscribe({
       next : (res) =>{
@@ -37,4 +37,5 @@ export class RentalDealsComponent  implements OnInit{
   navToDetails(id:number){
     this.router.navigate([`car-details/${id}`])
   }
+
 }

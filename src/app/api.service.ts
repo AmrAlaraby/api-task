@@ -11,4 +11,7 @@ export class ApiService {
   getAllCars():Observable<any>{
     return this.httpClient.get('https://freetestapi.com/api/v1/cars')
   }
+  getCarById(id:string){
+    return this.httpClient.get(`https://freetestapi.com/api/v1/cars/${id}`)
+  }
 }
