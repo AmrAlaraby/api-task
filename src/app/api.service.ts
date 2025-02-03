@@ -9,9 +9,9 @@ export class ApiService {
 
   constructor(private httpClient :HttpClient) { }
   getAllCars():Observable<any>{
-    return this.httpClient.get('https://freetestapi.com/api/v1/cars')
+    return this.httpClient.get('/api/v1/cars')
   }
   getCarById(id:string){
-    return this.httpClient.get(`https://freetestapi.com/api/v1/cars/${id}`)
+    return this.httpClient.get(`/api/v1/cars/${id}`)
   }
 }
